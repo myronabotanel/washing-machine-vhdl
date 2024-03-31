@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May 27 10:21:26 2023
+# Process ID: 11560
+# Current directory: E:/facultate/PSN/proiect/masina_de_spalat_rufe
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11640 E:\facultate\PSN\proiect\masina_de_spalat_rufe\masina_de_spalat_rufe.xpr
+# Log file: E:/facultate/PSN/proiect/masina_de_spalat_rufe/vivado.log
+# Journal file: E:/facultate/PSN/proiect/masina_de_spalat_rufe\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/facultate/PSN/proiect/masina_de_spalat_rufe/masina_de_spalat_rufe.xpr
+update_compile_order -fileset sources_1

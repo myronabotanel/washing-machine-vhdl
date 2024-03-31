@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="4.0"/>
+    <comp lib="0" loc="(1010,520)" name="Clock"/>
+    <comp lib="0" loc="(1290,230)" name="Clock"/>
+    <comp lib="0" loc="(1520,350)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(400,230)" name="Clock"/>
+    <comp lib="0" loc="(400,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,290)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,310)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,350)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,370)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,390)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,430)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,450)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,470)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,510)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,530)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,550)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,570)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(400,590)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(690,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
+    </comp>
+    <comp lib="5" loc="(1010,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1050,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1570,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1600,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1630,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1660,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1690,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1720,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1860,100)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1940,100)" name="7-Segment Display"/>
+    <comp lib="5" loc="(2100,100)" name="7-Segment Display"/>
+    <comp lib="5" loc="(2180,100)" name="7-Segment Display"/>
+    <comp lib="5" loc="(340,250)" name="Button"/>
+    <comp lib="5" loc="(650,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(690,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(730,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(770,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(810,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(850,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(890,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(930,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(970,70)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="8" loc="(1005,45)" name="Text">
+      <a name="text" val="CS"/>
+    </comp>
+    <comp lib="8" loc="(1075,45)" name="Text">
+      <a name="text" val="DOOR LOCK"/>
+    </comp>
+    <comp lib="8" loc="(650,45)" name="Text">
+      <a name="text" val="A/M"/>
+    </comp>
+    <comp lib="8" loc="(690,45)" name="Text">
+      <a name="text" val="30"/>
+    </comp>
+    <comp lib="8" loc="(725,45)" name="Text">
+      <a name="text" val="40"/>
+    </comp>
+    <comp lib="8" loc="(765,45)" name="Text">
+      <a name="text" val="60"/>
+    </comp>
+    <comp lib="8" loc="(805,45)" name="Text">
+      <a name="text" val="90"/>
+    </comp>
+    <comp lib="8" loc="(845,45)" name="Text">
+      <a name="text" val="800"/>
+    </comp>
+    <comp lib="8" loc="(885,45)" name="Text">
+      <a name="text" val="1000"/>
+    </comp>
+    <comp lib="8" loc="(925,45)" name="Text">
+      <a name="text" val="1200"/>
+    </comp>
+    <comp lib="8" loc="(965,45)" name="Text">
+      <a name="text" val="PR"/>
+    </comp>
+    <comp lib="9" loc="(1830,260)" name="Binary_to_BCD_converter"/>
+    <comp lib="9" loc="(1860,100)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(1940,100)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(2070,260)" name="Binary_to_BCD_converter"/>
+    <comp lib="9" loc="(2100,100)" name="BCD_to_7_Segment_decoder"/>
+    <comp lib="9" loc="(2180,100)" name="BCD_to_7_Segment_decoder"/>
+    <comp loc="(1240,500)" name="debouncer">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1520,230)" name="COUNTER">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(620,230)" name="CU">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(1000,430)" to="(1000,500)"/>
+    <wire from="(1000,430)" to="(1050,430)"/>
+    <wire from="(1000,500)" to="(1020,500)"/>
+    <wire from="(1010,410)" to="(1090,410)"/>
+    <wire from="(1010,520)" to="(1020,520)"/>
+    <wire from="(1010,70)" to="(1010,410)"/>
+    <wire from="(1050,70)" to="(1050,430)"/>
+    <wire from="(1070,330)" to="(1070,390)"/>
+    <wire from="(1070,330)" to="(1300,330)"/>
+    <wire from="(1090,350)" to="(1090,410)"/>
+    <wire from="(1090,350)" to="(1300,350)"/>
+    <wire from="(1240,370)" to="(1240,480)"/>
+    <wire from="(1240,370)" to="(1300,370)"/>
+    <wire from="(1240,480)" to="(1250,480)"/>
+    <wire from="(1240,500)" to="(1250,500)"/>
+    <wire from="(1250,480)" to="(1250,500)"/>
+    <wire from="(1290,230)" to="(1300,230)"/>
+    <wire from="(1520,230)" to="(1600,230)"/>
+    <wire from="(1520,250)" to="(1570,250)"/>
+    <wire from="(1520,270)" to="(1630,270)"/>
+    <wire from="(1520,290)" to="(1660,290)"/>
+    <wire from="(1520,310)" to="(1690,310)"/>
+    <wire from="(1520,330)" to="(1720,330)"/>
+    <wire from="(1520,370)" to="(1790,370)"/>
+    <wire from="(1520,390)" to="(2010,390)"/>
+    <wire from="(1570,70)" to="(1570,250)"/>
+    <wire from="(1600,70)" to="(1600,230)"/>
+    <wire from="(1630,70)" to="(1630,270)"/>
+    <wire from="(1660,70)" to="(1660,290)"/>
+    <wire from="(1690,70)" to="(1690,310)"/>
+    <wire from="(1720,70)" to="(1720,330)"/>
+    <wire from="(1790,260)" to="(1790,370)"/>
+    <wire from="(1790,260)" to="(1800,260)"/>
+    <wire from="(1870,180)" to="(1870,190)"/>
+    <wire from="(1870,190)" to="(1890,190)"/>
+    <wire from="(1890,190)" to="(1890,240)"/>
+    <wire from="(1950,180)" to="(1950,240)"/>
+    <wire from="(2010,260)" to="(2010,390)"/>
+    <wire from="(2010,260)" to="(2040,260)"/>
+    <wire from="(2110,180)" to="(2110,190)"/>
+    <wire from="(2110,190)" to="(2130,190)"/>
+    <wire from="(2130,190)" to="(2130,240)"/>
+    <wire from="(2190,180)" to="(2190,240)"/>
+    <wire from="(340,250)" to="(400,250)"/>
+    <wire from="(620,230)" to="(650,230)"/>
+    <wire from="(620,250)" to="(690,250)"/>
+    <wire from="(620,270)" to="(730,270)"/>
+    <wire from="(620,290)" to="(770,290)"/>
+    <wire from="(620,310)" to="(810,310)"/>
+    <wire from="(620,330)" to="(850,330)"/>
+    <wire from="(620,350)" to="(890,350)"/>
+    <wire from="(620,370)" to="(930,370)"/>
+    <wire from="(620,390)" to="(970,390)"/>
+    <wire from="(620,410)" to="(1010,410)"/>
+    <wire from="(620,430)" to="(1000,430)"/>
+    <wire from="(620,450)" to="(620,460)"/>
+    <wire from="(620,460)" to="(690,460)"/>
+    <wire from="(650,70)" to="(650,230)"/>
+    <wire from="(690,250)" to="(1300,250)"/>
+    <wire from="(690,70)" to="(690,250)"/>
+    <wire from="(730,270)" to="(1300,270)"/>
+    <wire from="(730,70)" to="(730,270)"/>
+    <wire from="(770,290)" to="(1300,290)"/>
+    <wire from="(770,70)" to="(770,290)"/>
+    <wire from="(810,310)" to="(1300,310)"/>
+    <wire from="(810,70)" to="(810,310)"/>
+    <wire from="(850,70)" to="(850,330)"/>
+    <wire from="(890,70)" to="(890,350)"/>
+    <wire from="(930,70)" to="(930,370)"/>
+    <wire from="(970,390)" to="(1070,390)"/>
+    <wire from="(970,70)" to="(970,390)"/>
+  </circuit>
+  <vhdl name="CU">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY CU IS
+  PORT (
+clk: in std_logic;
+        ok: in std_logic;
+        am: in std_logic;    ---0 automat, 1 manual
+        t_30,t_40,t_60,t_90: in std_logic;
+        v_800,v_1000,v_1200: in std_logic;
+        PR: in std_logic;           
+        CS: in std_logic;
+        SR,CAM,CI,RM,AA: in std_logic;
+        start: in std_logic;
+        reset: in std_logic;
+        led_am, led_30,led_40,led_60,led_90,led_800,led_1000,led_1200,led_PR,led_CS,led_doorlock: out std_logic;
+        stare: out std_logic_vector(8 downto 0)
+        
+    );
+END CU;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF CU IS
+
+
+type program_t is (PU,PSR,PCAM,PCI,PRM,PAA);
+signal PROGRAM: program_t:=PU;
+
+type state is (idle,a,c,j,o,q,p,n);
+signal current_state, next_state: state:=idle;
+
+type temperatura_t is (tU,t30,t40,t60,t90);
+signal TEMP: temperatura_t:=tU;
+
+type viteza_t is (vU,v800,v1000,v1200);
+signal VIT: viteza_t:=vU;
+
+signal AUT_MAN: std_logic:='0';                 --0 automat, 1 manual
+
+signal PRESP: std_logic:='0';
+signal CLSUP: std_logic:='0';
+
+signal EN_DOOR: std_logic:='0';
+
+signal temperatura: std_logic_vector(3 downto 0);
+signal viteza: std_logic_vector(2 downto 0);
+signal programe: std_logic_vector(4 downto 0);
+
+
+
+
+BEGIN
+
+--------------------------------------------- mux for temperatura
+temperatura&lt;=t_90 &amp; t_60 &amp; t_40 &amp; t_30;
+---------------------------------------------  mux for viteza
+viteza&lt;=v_1200 &amp; v_1000 &amp; v_800;
+--------------------------------------------- mux for programe
+programe&lt;=AA &amp; RM &amp; CI &amp; CAM &amp; SR;
+---------------------------------------------transition process
+
+transition:process (clk)
+begin
+if rising_edge(clk) then
+current_state&lt;=next_state;
+end if;
+end process;
+
+---------------------------------------------next state process / inputs
+stare_urmatoare: process (temperatura, viteza, programe, ok, PR,CS,am,current_state)
+begin
+case current_state is
+---------------------------------------------- state idle
+when idle =&gt; 
+       PROGRAM&lt;=PU;
+       TEMP&lt;=tU;
+        VIT&lt;=vU;
+        PRESP&lt;='0';
+        CLSUP&lt;='0';
+        EN_DOOR&lt;='0';
+          if ok='1' then 
+            if am='1' then
+                AUT_MAN&lt;='1';
+                next_state&lt;=a;
+             else
+               next_state&lt;=q;
+                end if;
+            else
+                next_state&lt;=idle;
+            end if;
+----------------------------------------------- state a
+ when a =&gt;
+ case temperatura is
+ ----------------------------------------------- temp 30
+    when "0001" =&gt;
+        if ok='1' then
+           TEMP&lt;=t30;
+           next_state&lt;=c;
+         else
+            next_state&lt;=a;
+        end if;
+------------------------------------------------ temp 40
+    when "0010" =&gt;
+         if ok='1' then
+             TEMP&lt;=t40;
+             next_state&lt;=c;
+         else
+             next_state&lt;=a;
+          end if;
+---------------------------------------------- temp 60
+    when "0100" =&gt;
+         if ok='1' then
+             TEMP&lt;=t60;
+             next_state&lt;=c;
+         else
+             next_state&lt;=a;
+          end if;
+---------------------------------------------- temp 90
+        when "1000" =&gt; 
+          if ok='1' then
+             TEMP&lt;=t90;
+             next_state&lt;=c;
+         else
+             next_state&lt;=a;
+          end if;
+        when others =&gt; next_state&lt;=a;
+end case;
+------------------------------------------------ stare c
+     when c=&gt;
+     case viteza is
+----------------------------------------------- vit 800
+        when "001" =&gt;
+           if ok='1' then
+           VIT&lt;=v800;
+           next_state&lt;=j;
+           else
+              next_state&lt;=c;
+         end if;
+------------------------------------------------ vit 1000
+        when "010" =&gt; 
+           if ok='1'  then
+              VIT&lt;=v1000;
+               next_state&lt;=j;
+           else
+               next_state&lt;=c;
+           end if;
+------------------------------------------------- vit 1200
+           when "100" =&gt;
+             if ok='1' then
+               VIT&lt;=v1200;
+                next_state&lt;=j;
+             else
+               next_state&lt;=c;
+              end if;
+              
+ when others=&gt; next_state&lt;=c;
+ end case;
+--------------------------------------------------- stare j
+when j =&gt; 
+if ok='1'  then 
+ if PR='0' then    
+     next_state&lt;=n;
+ else
+     PRESP&lt;='1';
+     next_state&lt;=n;
+  end if;
+ else 
+    next_state&lt;=j;
+end if;
+---------------------------------------------------- stare n
+when n =&gt; 
+if ok='1'  then 
+ if CS='0' then    
+     next_state&lt;=o;
+ else
+     CLSUP&lt;='1';
+     next_state&lt;=o;
+  end if;
+ else 
+    next_state&lt;=n;
+end if;
+---------------------------------------------------- stare q
+when q =&gt; 
+case programe is
+-------------------------------------------------------spalare rapida 
+when "00001" =&gt; 
+        if ok='1'  then
+          PROGRAM&lt;=PSR;
+          TEMP&lt;=t30;
+          VIT&lt;=v1200;
+           next_state&lt;=o;
+         else
+          next_state&lt;=q;
+         end if;
+----------------------------------------------------- camasi
+when "00010" =&gt; 
+      if ok='1'   then          
+           PROGRAM&lt;=PCAM;
+           TEMP&lt;=t40;
+           VIT&lt;=v800;
+           next_state&lt;=o;
+        else
+            next_state&lt;=q;
+        end if;
+---------------------------------------------------- culori inchise
+when "00100" =&gt; 
+       if ok='1'   then          
+           PROGRAM&lt;=PCI;
+           TEMP&lt;=t40;
+           VIT&lt;=v1000;
+           CLSUP&lt;='1';
+           next_state&lt;=o;
+        else
+            next_state&lt;=q;
+        end if;
+-------------------------------------------------------- rufe murdare
+when "01000" =&gt; 
+      if ok='1'   then          
+           PROGRAM&lt;=PRM;
+           TEMP&lt;=t40;
+           VIT&lt;=v1000;
+           PRESP&lt;='1';
+           CLSUP&lt;='1';
+           next_state&lt;=o;
+        else
+            next_state&lt;=q;
+        end if;
+------------------------------------------------------ anti alergice
+when "10000" =&gt; 
+      if ok='1'   then          
+           PROGRAM&lt;=PAA;
+           TEMP&lt;=t90;
+           VIT&lt;=v1200;
+           CLSUP&lt;='1';
+           next_state&lt;=o;
+        else
+            next_state&lt;=q;
+        end if;
+when others=&gt; next_state&lt;=q;
+end case;
+------------------------------------------------------ stare o
+when o =&gt;
+  if start ='0' then
+       if reset='1'then
+            next_state&lt;=idle;
+       end if;
+       else
+       if ok='1' then
+            next_state&lt;=p;
+        end if;
+   end if;
+---------------------------------------------------- stare p
+when p =&gt;  EN_DOOR&lt;='1';
+
+end case;
+end process;
+
+
+ouptuts: process (current_state)
+begin
+stare&lt;="000000000";
+case current_state is
+when idle=&gt; stare(8)&lt;='1';
+ led_am&lt;='0'; led_30&lt;='0';led_40&lt;='0';led_60&lt;='0';led_90&lt;='0';led_800&lt;='0';led_1000&lt;='0';led_1200&lt;='0';led_PR&lt;='0';led_CS&lt;='0';led_doorlock&lt;='0';
+when a=&gt; stare(7)&lt;='1';
+         led_am&lt;='1';
+         
+when c=&gt; stare(6)&lt;='1';
+         case TEMP is
+         when t30=&gt; led_30&lt;='1';
+         when t40=&gt; led_40&lt;='1';
+         when t60=&gt; led_60&lt;='1';
+         when t90=&gt; led_90&lt;='1';
+         when others=&gt; 
+         end case;
+         
+when j=&gt; stare(5)&lt;='1';
+          case VIT is
+         when v800=&gt; led_800&lt;='1';
+         when v1000=&gt; led_1000&lt;='1';
+         when v1200=&gt; led_1200&lt;='1';
+         when others=&gt;
+         end case;
+         
+when n=&gt; stare(4)&lt;='1';
+         if PRESP='1' then 
+            led_PR&lt;='1'; 
+         end if;
+         
+when q=&gt; stare(3)&lt;='1';
+         if CLSUP='1' then 
+            led_CS&lt;='1'; 
+         end if;
+         
+when o=&gt;stare(3)&lt;='1';
+         if CLSUP='1' then 
+            led_CS&lt;='1'; 
+         end if;
+        stare(2)&lt;='1';
+        case PROGRAM is 
+         when PSR =&gt;
+         led_30&lt;='1';
+         led_1200&lt;='1';
+         when PCAM =&gt;
+         led_60&lt;='1';
+         led_800&lt;='1';
+         when PCI=&gt;
+         led_40&lt;='1';
+         led_1000&lt;='1';
+         led_CS&lt;='1';
+         when PRM=&gt;
+         led_40&lt;='1';
+         led_1000&lt;='1';
+         led_PR&lt;='1';
+         when PAA=&gt;
+         led_90&lt;='1';
+         led_1200&lt;='1';
+         led_CS&lt;='1';
+         when others=&gt;
+         end case;
+when p=&gt; stare(1)&lt;='1';
+led_doorlock&lt;='1';
+end case;
+end process;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="COUNTER">--------------------------------------------------------------------------------&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+use ieee.numeric_std.all;
+
+ENTITY COUNTER IS&#13;
+  PORT (&#13; CLK1S: in std_logic;
+         T30,T40,T60,T90: in std_logic;
+         PR,CS: in std_logic;
+         EN: in std_logic;
+         PRESP, H , SP_P, CLAT_P, CLAT_S, CEN, DO: out std_logic;
+         TIMP: out std_logic_vector(8 downto 0);
+         INIT: out std_logic_vector(8 downto 0)
+         
+    );&#13;
+END COUNTER;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF COUNTER IS&#13;
+
+signal &#13;COUNT: std_logic_vector(8 downto 0):=(others=&gt;'0');
+signal INITIAL_VALUE: std_logic_vector(8 downto 0):=(others=&gt;'0');
+signal THPR,TPR,THSP, TCS: integer:=0;
+signal TSP: integer:=20;
+signal TCP, TC: integer:=10;
+
+
+
+signal temperatura: std_logic_vector(4 downto 0);
+
+
+BEGIN&#13;
+INIT&lt;=INITIAL_VALUE;
+temperatura&lt;=PR &amp; T90 &amp; T60 &amp; T40 &amp; T30;
+
+
+with temperatura select THPR&lt;=1 when "10100",
+                              2 when "11000",
+                              0 when others;
+
+with temperatura(3 downto 0) select THSP&lt;=1 when "0100",
+                                          2 when "1000",
+                                          0 when others;
+                                       
+TPR&lt;=10 when PR='1';
+TCS&lt;=10 when CS='1';
+
+--COUNT&lt;=std_logic_vector(to_unsigned(THPR+TPR+THSP+TSP+TCP+TCS+TC,9)) when EN_INT='1';
+
+
+
+
+process(CLK1S,EN)
+begin
+	if EN='1' then
+		COUNT&lt;=std_logic_vector(to_unsigned(THPR+TPR+THSP+TSP+TCP+TCS+TC,9));
+		INITIAL_VALUE&lt;=COUNT;
+	elsif rising_edge(CLK1S) and  COUNT/="000000000" then 
+	COUNT&lt;=COUNT-1;
+	end if;
+end process;
+
+process(COUNT)
+begin
+	if COUNT&gt;0 then
+		if conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR then
+		PRESP&lt;='0'; H&lt;='1'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='0'; 
+		elsif conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR then
+		PRESP&lt;='1'; H&lt;='0'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='0'; 
+		elsif  conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR-THSP then
+		PRESP&lt;='0'; H&lt;='1'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='0'; 
+		elsif  conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR-THSP-TSP then
+		PRESP&lt;='0'; H&lt;='0'; SP_P&lt;='1'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='0'; 
+		elsif  conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR-THSP-TSP-TCP then
+		PRESP&lt;='0'; H&lt;='0'; SP_P&lt;='0'; CLAT_P&lt;='1'; CLAT_S&lt;='0'; CEN&lt;='0'; 
+		elsif  conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR-THSP-TSP-TCP-TCS then
+		PRESP&lt;='0'; H&lt;='0'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='1'; CEN&lt;='0'; DO&lt;='0';
+		elsif  conv_integer(COUNT)&gt;conv_integer(INITIAL_VALUE)-THPR-TPR-THSP-TSP-TCP-TCS-TC then
+		PRESP&lt;='0'; H&lt;='0'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='1'; 
+		end if;
+	else
+		PRESP&lt;='0'; H&lt;='0'; SP_P&lt;='0'; CLAT_P&lt;='0'; CLAT_S&lt;='0'; CEN&lt;='0';
+	end if;
+end process;
+
+DO&lt;='1' when conv_integer(COUNT)=0 else '0'; 
+
+TIMP&lt;=COUNT;
+
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="debouncer">library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity debouncer is
+    Port ( btn : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           enable : out  STD_LOGIC);
+end debouncer;
+
+architecture Behavioral of debouncer is
+signal q1,q2,q3:std_logic;
+signal counter:std_logic_vector(1 downto 0):="00";
+
+begin
+
+enable&lt;=q2 and (not(q3));
+
+process(clk)
+begin
+if rising_edge(clk) then counter&lt;=counter+1;
+end if;
+
+end process;
+
+process(clk)
+begin
+if rising_edge(clk) then
+    if (counter(1 downto 0))="11" then q1&lt;=btn;
+	 end if;
+	 end if;
+end process;
+
+
+process(clk)
+begin
+	if rising_edge(clk) then
+	q2&lt;=q1;
+	q3&lt;=q2;
+	end if;
+
+
+end process;
+
+end Behavioral;
+</vhdl>
+  <vhdl name="frequency_divider">library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity frequency_divider is
+    Port ( clk : in  STD_LOGIC;
+           rst : in  STD_LOGIC;
+           divided_clk : out  STD_LOGIC);
+end frequency_divider;
+
+architecture Behavioral of frequency_divider is
+signal counter:integer:=1;
+signal new_clk:std_logic:='0';
+
+
+begin
+
+process(clk,rst)
+begin
+if rst='1' then counter&lt;=1;
+elsif clk='1' and clk'event then
+	if counter=50000000 then
+		counter&lt;=1;
+		new_clk&lt;=not(new_clk);
+	else
+		counter&lt;=counter+1;
+	end if;
+end if;
+end process;
+-- now new_clk can be used as input clk for another components
+divided_clk&lt;=new_clk;
+
+
+end Behavioral;</vhdl>
+</project>

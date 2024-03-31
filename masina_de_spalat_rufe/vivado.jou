@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 28 19:44:59 2024
+# Process ID: 6128
+# Current directory: C:/Users/user/Downloads/Botanel_Mirona_Macavei_Alina/Botanel_Mirona_Macavei_Alina/masina_de_spalat_rufe
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4328 C:\Users\user\Downloads\Botanel_Mirona_Macavei_Alina\Botanel_Mirona_Macavei_Alina\masina_de_spalat_rufe\masina_de_spalat_rufe.xpr
+# Log file: C:/Users/user/Downloads/Botanel_Mirona_Macavei_Alina/Botanel_Mirona_Macavei_Alina/masina_de_spalat_rufe/vivado.log
+# Journal file: C:/Users/user/Downloads/Botanel_Mirona_Macavei_Alina/Botanel_Mirona_Macavei_Alina/masina_de_spalat_rufe\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Downloads/Botanel_Mirona_Macavei_Alina/Botanel_Mirona_Macavei_Alina/masina_de_spalat_rufe/masina_de_spalat_rufe.xpr
+update_compile_order -fileset sources_1
